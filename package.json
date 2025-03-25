@@ -1,0 +1,11 @@
+{
+  "name": "migration",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.14.0",
+    "typeorm": "^0.3.21"
+  }
+}
