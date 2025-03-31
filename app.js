@@ -168,8 +168,8 @@ async function copyData() {
 
 copyData();
 
-//mysql -h localhost -u root --password="aa123123" db2 < remote_dump_app.sql
-//mysql -h localhost -u root --password="aa123123" syncurio < remote_dump_beta.sql
+//mysql -h localhost -u root --password="***" db2 < remote_dump_app.sql
+//mysql -h localhost -u root --password="***" db1 < remote_dump_beta.sql
 /*
 UPDATE db2.user u
 JOIN syncurio.user s ON u.email = s.email
